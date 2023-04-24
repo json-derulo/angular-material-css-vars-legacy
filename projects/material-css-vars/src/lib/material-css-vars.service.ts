@@ -270,7 +270,7 @@ export class MaterialCssVarsService {
       .map(({contrastColorVar, hue}) => {
         return {
           val: this._getCssVarValue(contrastColorVar),
-          name: `${palettePrefix + MaterialCssVarsService.CONTRAST_PREFIX}${hue}`,
+          name: `${palettePrefix + MaterialCssVarsService.CONTRAST_PREFIX}${hue}-rgb`,
         };
       });
     this._setStyle(updates);
