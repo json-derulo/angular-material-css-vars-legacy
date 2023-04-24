@@ -16,7 +16,7 @@ $light-disabled-text: rgba(255, 255, 255, 0.5);
 $light-dividers: rgba(255, 255, 255, 0.12);
 $light-focused: rgba(255, 255, 255, 0.12);
 
-$text: 
+$text:
         (--dark-primary-text: $dark-primary-text,
           --dark-secondary-text: $dark-secondary-text,
           --dark-accent-text: $dark-primary-text,
@@ -100,7 +100,7 @@ $default-background: (
   --palette-background-background: utilities.hex-to-rgb(map_get(mat.$grey-palette, 50)),
   --palette-background-hover: utilities.hex-to-rgb(#000000),
   --palette-background-hover-alpha: 0.04,
-  --palette-background-card: utilities.hex-to-rgb(#ffffff),
+  --palette-background-card: utilities.hex-to-rgb(#eeeeee),
   --palette-background-dialog: utilities.hex-to-rgb(#ffffff),
   --palette-background-disabled-button: utilities.hex-to-rgb(#000000),
   --palette-background-disabled-button-alpha: 0.12,
@@ -134,7 +134,7 @@ $default-background: (
   --palette-background-tooltip-dark: utilities.hex-to-rgb(map_get(mat.$grey-palette, 700))
 ) !default;
 
-$default-light-theme: 
+$default-light-theme:
   (
     // PRIMARY
     --palette-primary-50: utilities.hex-to-rgb(#e1f5fe),

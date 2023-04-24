@@ -1,12 +1,18 @@
 {
-  "name": "angular-material-css-vars",
-  "version": "4.2.2",
-  "description": "Little library to use css variables for @angular/material",
-  "author": "johannesjo <contact@super-productivity.com> (http://super-productivity.com)",
+  "name": "angular-material-css-vars-legacy",
+  "version": "5.0.0-next.0",
+  "description": "Little library to use css variables for @angular/material for legacy components",
+  "author": {
+    "name": "Daniel Kimmich",
+    "url": "https://github.com/json-derulo"
+  },
+  "contributors": [
+    "johannesjo <contact@super-productivity.com> (http://super-productivity.com)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johannesjo/angular-material-css-vars"
+    "url": "https://github.com/json-derulo/angular-material-css-vars-legacy"
   },
   "keywords": [
     "angular",

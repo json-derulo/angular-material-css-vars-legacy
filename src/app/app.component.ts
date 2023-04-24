@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ThemePalette} from '@angular/material/core';
-import {MatDialog} from '@angular/material/dialog';
-import {MatSnackBar} from '@angular/material/snack-bar';
+import {MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import {MatLegacySnackBar as MatSnackBar} from '@angular/material/legacy-snack-bar';
 import {MaterialCssVarsService} from '../../projects/material-css-vars/src/lib/material-css-vars.service';
 import {HueValue, MatCssHueColorContrastMapItem} from '../../projects/material-css-vars/src/lib/model';
 
@@ -51,7 +51,7 @@ export class AppComponent {
   ];
 
   progress = 0;
-  
+
   task: Task = {
     name: 'Indeterminate',
     completed: false,
