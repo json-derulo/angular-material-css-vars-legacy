@@ -2,7 +2,7 @@
 
 You want to style your angular material dynamically with all the colors in the rainbow? Look no further!
 
-[Check out the Demo!](https://johannesjo.github.io/angular-material-css-vars/)
+[Check out the Demo!](https://json-derulo.github.io/angular-material-css-vars-legacy/)
 
 > Only use this package if you are using the Angular Material Legacy Components. In case you already switched to the MDC-based components, please use the
 > [angular-material-css-vars](https://github.com/johannesjo/angular-material-css-vars) package.
@@ -65,12 +65,12 @@ export class AppModule {
   * `setContrastColorThreshold(hueVal: HueValue)`
 * Helper to set all variables
   * `setVariable(cssVarName: MaterialCssVariables, value: string)`
-  * You can use the `MaterialCssVariables` enum [from here](https://github.com/johannesjo/angular-material-css-vars/blob/master/projects/material-css-vars/src/lib/model.ts) to make sure you get the variable name right.
+  * You can use the `MaterialCssVariables` enum [from here](https://github.com/json-derulo/angular-material-css-vars-legacy/blob/master/projects/material-css-vars/src/lib/model.ts) to make sure you get the variable name right.
 * Rudimentary dark theme support via body class
   * `setDarkTheme(isDark: boolean)`
 
 ## Utility
-There are also several [utility functions and mixins](https://github.com/johannesjo/angular-material-css-vars/blob/master/projects/material-css-vars/src/lib/_public-util.scss).
+There are also several [utility functions and mixins](https://github.com/json-derulo/angular-material-css-vars-legacy/blob/master/projects/material-css-vars/src/lib/_public-util.scss).
 ```scss
 @use 'angular-material-css-vars-legacy/public-util' as mat-css-utilities;
 
@@ -119,7 +119,7 @@ $mat-css-dark-theme-selector: '.isDarkThemeCUSTOM';
 ```
  
 
-A full list of the theme map [can be found here](https://github.com/johannesjo/angular-material-css-vars/blob/master/projects/material-css-vars/src/lib/_variables.scss).
+A full list of the theme map [can be found here](https://github.com/json-derulo/angular-material-css-vars-legacy/blob/master/projects/material-css-vars/src/lib/_variables.scss).
 
 
 ### Set default (fallback palettes)
@@ -135,7 +135,7 @@ There are two ways to set the default fallback theme. One is using the `mat-css-
 @include mat-css-utilities.mat-css-set-palette-defaults(mat-theming.$mat-pink, 'accent');
 @include mat-css-utilities.mat-css-set-palette-defaults(mat-theming.$mat-red, 'warn');
 ```
-The other is to include your own variables for [$mat-css-default-light-theme](https://github.com/johannesjo/angular-material-css-vars/blob/master/projects/material-css-vars/src/lib/_variables.scss).
+The other is to include your own variables for [$mat-css-default-light-theme](https://github.com/json-derulo/angular-material-css-vars-legacy/blob/master/projects/material-css-vars/src/lib/_variables.scss).
 ```scss
 @use 'angular-material-css-vars-legacy/main' as mat-css-main;
 @use 'angular-material-css-vars-legacy/variables' as mat-css-vars;
